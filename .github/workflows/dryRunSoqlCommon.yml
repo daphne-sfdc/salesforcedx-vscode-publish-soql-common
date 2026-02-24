@@ -1,0 +1,33 @@
+name: Dry Run - soql-common Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dry-run:
+    name: Compile and dry-run npm publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ vars.NODE_VERSION || 'lts/*' }}
+          registry-url: 'https://registry.npmjs.org'
+      - uses: salesforcecli/github-workflows/.github/actions/npmInstallWithRetries@main
+      - name: Preview next patch version
+        working-directory: packages/soql-common
+        run: |
+          CURRENT=$(node -pe "require('./package.json').version")
+          NEXT=$(npx semver "$CURRENT" -i patch)
+          echo "Current version : $CURRENT"
+          echo "Would publish as: $NEXT"
+      - name: Compile package
+        working-directory: packages/soql-common
+        run: npm run compile
+      - name: Dry-run npm publish
+        working-directory: packages/soql-common
+        run: npm publish --dry-run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
