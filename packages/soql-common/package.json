@@ -1,5 +1,5 @@
 {
-  "name": "@salesforce/soql-common",
+  "name": "@elephant32/soql-common",
   "version": "1.0.1",
   "description": "Common SOQL parsing utilities",
   "publisher": "salesforce",
