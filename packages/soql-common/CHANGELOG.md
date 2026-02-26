@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.1.2...soql-common-v1.2.0) (2026-02-26)
+
+
+### Features
+
+* add elephant.txt for testing ([27541fb](https://github.com/forcedotcom/salesforcedx-vscode/commit/27541fb4b3398d09a95be8fd465145ce93e8898a))
+
+
+
 ## [1.1.2](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.1.1...soql-common-v1.1.2) (2026-02-26)
 
 
