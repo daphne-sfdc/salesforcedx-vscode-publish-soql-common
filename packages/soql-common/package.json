@@ -45,6 +45,7 @@
     "access": "public"
   },
   "scripts": {
+    "build": "npm run compile",
     "compile": "wireit",
     "lint": "wireit",
     "clean": "shx rm -rf node_modules out dist coverage .wireit .eslintcache",
