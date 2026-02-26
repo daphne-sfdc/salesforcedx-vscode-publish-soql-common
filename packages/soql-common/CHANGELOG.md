@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.2.0...soql-common-v1.2.1) (2026-02-26)
+
+
+### Bug Fixes
+
+* update elephant.txt for testing ([114a3e0](https://github.com/forcedotcom/salesforcedx-vscode/commit/114a3e02c5c66eae1340b6463334cb1c534aa2e1))
+
+
+
 # [1.2.0](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.1.2...soql-common-v1.2.0) (2026-02-26)
 
 
