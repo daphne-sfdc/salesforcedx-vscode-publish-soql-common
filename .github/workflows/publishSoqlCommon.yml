@@ -61,7 +61,7 @@ jobs:
           body: ${{ steps.changelog.outputs.clean_changelog }}
           token: ${{ secrets.IDEE_GH_TOKEN }}
           skipIfReleaseExists: true
-          makeLatest: false
+          makeLatest: 'false'
 
       - id: tag-output
         run: |
