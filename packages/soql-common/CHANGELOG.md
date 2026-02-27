@@ -1,3 +1,7 @@
+## [1.3.2](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.3.1...soql-common-v1.3.2) (2026-02-27)
+
+
+
 ## [1.3.1](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.3.0...soql-common-v1.3.1) (2026-02-27)
 
 
