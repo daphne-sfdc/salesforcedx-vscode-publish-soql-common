@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.2.2...soql-common-v1.3.0) (2026-02-27)
+
+
+### Features
+
+* elephant emoji! 🐘 ([906219e](https://github.com/forcedotcom/salesforcedx-vscode/commit/906219e4622df0573d3d740e255e99eb7f68787c))
+
+
+
 ## [1.2.2](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.2.1...soql-common-v1.2.2) (2026-02-27)
 
 
