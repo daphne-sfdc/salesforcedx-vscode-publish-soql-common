@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.3.0...soql-common-v1.3.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* more elephants ([574eb3f](https://github.com/forcedotcom/salesforcedx-vscode/commit/574eb3f1cbdc89ea179f90c5b60b8d2ccfed3de3))
+
+
+
 # [1.3.0](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.2.2...soql-common-v1.3.0) (2026-02-27)
 
 
