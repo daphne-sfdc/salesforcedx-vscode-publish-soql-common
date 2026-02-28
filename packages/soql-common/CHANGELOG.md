@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.3.2...soql-common-v1.4.0) (2026-02-28)
+
+
+### Features
+
+* a commit with content ([20d9d76](https://github.com/forcedotcom/salesforcedx-vscode/commit/20d9d76d620a99033194ca24347c6e9f03282229))
+
+
+
 ## [1.3.2](https://github.com/forcedotcom/salesforcedx-vscode/compare/soql-common-v1.3.1...soql-common-v1.3.2) (2026-02-27)
 
 
